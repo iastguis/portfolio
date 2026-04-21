@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio - Iasmin</title>
+  <style>
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef2f7;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+}
+
+.container {
+  background: white;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.perfil {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0a66c2;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.perfil h1 {
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: #1f2937;
+}
+
+.cargo {
+  color: #0a66c2;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  background-color: #e0e7ff;
+  color: #3730a3;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 18px;
+  background-color: #0a66c2;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="perfil">
+    <img src="https://via.placeholder.com/120" class="foto">
+    <h1>Iasmin Teles Guimarães Soares</h1>
+    <p class="cargo">Estudante de Engenharia de Software | UNIGRANDE</p>
+  </div>
+
+  <div class="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+      Estudante do 1º semestre de Engenharia de Software com interesse
+      em desenvolvimento web. Busco oportunidade de estágio para aplicar
+      meus conhecimentos em HTML e evoluir na área de tecnologia.
+    </p>
+  </div>
+
+  <div class="habilidades">
+    <h2>Competências</h2>
+    <div class="tags">
+      <span>HTML</span>
+      <span>Lógica de Programação</span>
+      <span>Trabalho em Equipe</span>
+      <span>Comunicação</span>
+    </div>
+  </div>
+
+  <div class="contato">
+    <h2>Contato</h2>
+    <p>Email: oteless123@gmail.com</p>
+    <p>Gurupi - TO</p>
+    <a href="mailto:oteless123@gmail.com" class="botao">
+      Conectar
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>
